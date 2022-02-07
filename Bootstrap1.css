@@ -1,0 +1,45 @@
+html {
+    scroll-behavior: smooth;
+}
+.Header-section {
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 168, 255, 0.3), rgba(0, 168, 255, 0.3)), url('images/computer.jpg');
+    background-repeat: none;
+    background-size: 100% 100%;
+}
+
+.main1:hover {
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+    transform: translate(-20px);
+}
+
+.main1{
+    background: #fff;
+    border: medium none;
+    padding: 50px !important;
+    border-radius: 3px;
+    transition: 0.3s;
+}
+
+.navbar{
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+#mybtn {
+    /*	display:none;*/
+    position: fixed;
+    bottom: 20px;
+    right: 40px;
+    z-index: 99;
+    border: none;
+    color: #fff;
+    background: #00abff;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#mybtn:hover {
+    background-color: #606060;
+}
